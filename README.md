@@ -1,3 +1,5 @@
+# ParkingFee
+
    The parking billing program is a program implemented according to the charging standards of a certain parking lot. The program is based on the driver's vehicle type (motorcycle or car), car type (sports car or sedan), parking date (weekdays or weekends), discount coupons Calculate the parking fee with the parking time.<br>
 
 1. Input specifications
@@ -22,8 +24,10 @@
    (b) The user chooses the estimated parking time: The user can choose the estimated parking time according to his situation, divided into three time periods, "no more than 2 hours", "2 hours to 4 hours" and "4 hours to 24 hours". If the parking time is within the estimated time, the driver can enjoy a 40% discount. On the contrary, the driver needs to pay an additional 20% additional management fee in addition to the original parking fee.
 
    (c) The user has neither coupons nor estimated parking time: If the driver does not provide coupons or estimated parking time, the parking fee will not be discounted.
-       It should be noted that the user cannot give the estimated parking time while providing the coupon, and can only choose one preferential method or neither.
-       When the input meets the program specifications, the final parking fee is calculated according to the parking time, whether to enjoy a discount and the parking unit price. The calculation method of the parking unit price is shown in the table.
+
+     It should be noted that the user cannot give the estimated parking time while providing the coupon, and can only choose one preferential method or neither.
+
+     When the input meets the program specifications, the final parking fee is calculated according to the parking time, whether to enjoy a discount and the parking unit price. The calculation method of the parking unit price is shown in the table.
 
 <table><tr>
 <td rowspan="3">Parking time(Unit: hour)</td><td colspan="6"> Parking unit price (unit: ¥)</td></tr>
