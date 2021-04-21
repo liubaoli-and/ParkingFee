@@ -41,7 +41,7 @@ It should be noted that the user cannot give the estimated parking time while pr
 3. Description of MRs<br>
    A total of 5 MRs are shown in the table.
 
-<table><tr><td>No</td><td> R </td><td>Rf</td></tr>
+<table><tr><td>No.</td><td> R </td><td>Rf</td></tr>
    <tr><td colspan="3"><center>1. estimation="(0.0,2.0]"</center></td></tr>
 <tr><td>MR1 </td><td>apd_=apd+0.1(0.0 &lt; apd<=1.9)</td> <td> fee_>=fee</td></tr>
     <tr><td colspan="3"><center>2. estimation="(2.0,4.0]"</center></td></tr>
